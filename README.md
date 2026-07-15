@@ -82,8 +82,11 @@ Interactive **data visualization dashboard** for displaying and analyzing aggreg
 
 ## 📱 Connect With Me
 
-- **LinkedIn:** [Ali Hassan](https://www.linkedin.com/in/ali-hassan-847933285/) – Let's connect!
-- **GitHub:** [@A-Hassan001](https://github.com/A-Hassan001) – Check out my projects
+- **LinkedIn:** [Ali Hassan](https://www.linkedin.com/in/ali-hassan-847933285/) 
+- **GitHub:** [@A-Hassan001](https://github.com/A-Hassan001)
+- **Email:** contact.abhassan@gmail.com
+- **Phone:** +92313 7058036
+- **Whatsapp:** +92313 7058036
 
 ---
 
@@ -96,4 +99,4 @@ Interactive **data visualization dashboard** for displaying and analyzing aggreg
 
 ---
 
-**Let's build something amazing together!** Feel free to reach out via LinkedIn or explore my projects above.
+**Let's build something amazing together!** Feel free to reach out via LinkedIn, Email, Whatsapp or explore my projects above.
