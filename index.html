@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ali Hassan - Portfolio</title>
+    <title>Ali Hassan - Full-Stack Developer & Data Specialist</title>
     <style>
         * {
             margin: 0;
@@ -225,7 +225,14 @@
             grid-template-columns: 1fr 1fr;
             gap: 3rem;
             align-items: center;
-            margin-top: 2rem;
+            margin-top: 3rem;
+        }
+
+        .about-text h3 {
+            color: #667eea;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
         }
 
         .about-text p {
@@ -233,6 +240,27 @@
             color: #555;
             font-size: 1.05rem;
             line-height: 1.8;
+        }
+
+        .about-text ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .about-text li {
+            margin-bottom: 0.8rem;
+            color: #555;
+            font-size: 1.05rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .about-text li:before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
         }
 
         .about-image {
@@ -252,19 +280,19 @@
             transform: scale(1.05) rotate(2deg);
         }
 
-        /* Skills Section */
-        .skills {
+        /* What I Do Section */
+        .what-i-do {
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
         }
 
-        .skills-grid {
+        .what-i-do-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
 
-        .skill-card {
+        .service-card {
             background: white;
             padding: 2rem;
             border-radius: 10px;
@@ -273,30 +301,74 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
         }
 
-        .skill-card:hover {
+        .service-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 20px 40px rgba(102, 126, 234, 0.2);
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
         }
 
-        .skill-icon {
+        .service-icon {
             font-size: 3rem;
             margin-bottom: 1rem;
         }
 
-        .skill-card h3 {
+        .service-card h3 {
             font-size: 1.3rem;
             margin-bottom: 0.5rem;
         }
 
-        .skill-card p {
+        .service-card p {
             color: #777;
             font-size: 0.95rem;
         }
 
-        .skill-card:hover p {
+        .service-card:hover p {
             color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* Tech Stack Section */
+        .tech-stack {
+            background: white;
+        }
+
+        .tech-stack-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .tech-category {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .tech-category:hover {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            transform: translateY(-5px);
+        }
+
+        .tech-category h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .tech-category:hover h3 {
+            color: white;
+        }
+
+        .tech-category p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .tech-category:hover p {
+            color: rgba(255, 255, 255, 0.95);
         }
 
         /* Projects Section */
@@ -306,7 +378,7 @@
 
         .projects-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
@@ -317,16 +389,18 @@
             overflow: hidden;
             transition: all 0.3s ease;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            border-left: 5px solid #667eea;
         }
 
         .project-card:hover {
             transform: translateY(-8px);
             box-shadow: 0 20px 40px rgba(102, 126, 234, 0.2);
+            border-left-color: #764ba2;
         }
 
         .project-image {
             width: 100%;
-            height: 200px;
+            height: 180px;
             background: linear-gradient(135deg, #667eea, #764ba2);
             display: flex;
             align-items: center;
@@ -344,21 +418,31 @@
             padding: 1.5rem;
         }
 
+        .project-number {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
         .project-info h3 {
             color: #2c3e50;
             margin-bottom: 0.5rem;
+            font-size: 1.2rem;
         }
 
         .project-info p {
             color: #666;
             margin-bottom: 1rem;
             font-size: 0.95rem;
+            line-height: 1.6;
         }
 
         .project-tags {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
+            margin-bottom: 1rem;
         }
 
         .project-tag {
@@ -369,6 +453,19 @@
             border-radius: 20px;
             font-size: 0.8rem;
             font-weight: 600;
+        }
+
+        .project-link {
+            display: inline-block;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .project-link:hover {
+            color: #764ba2;
+            text-decoration: underline;
         }
 
         /* Contact Section */
@@ -399,7 +496,7 @@
         .contact-links {
             display: flex;
             justify-content: center;
-            gap: 2rem;
+            gap: 1.5rem;
             flex-wrap: wrap;
             margin-bottom: 2rem;
         }
@@ -466,7 +563,7 @@
                 grid-template-columns: 1fr;
             }
 
-            .skills-grid {
+            .what-i-do-grid {
                 grid-template-columns: 1fr;
             }
 
@@ -476,10 +573,19 @@
 
             .contact-links {
                 flex-direction: column;
+                gap: 1rem;
+            }
+
+            .contact-link {
+                width: 100%;
             }
 
             section h2 {
                 font-size: 2rem;
+            }
+
+            section {
+                padding: 3rem 1rem;
             }
         }
 
@@ -506,7 +612,8 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#what-i-do">What I Do</a></li>
+                <li><a href="#tech">Tech Stack</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -521,8 +628,8 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-content">
-            <h1>Ali Hassan</h1>
-            <p>Full-Stack Developer & Creative Technologist</p>
+            <h1>Hi, I'm Ali Hassan 👋</h1>
+            <p>Full-Stack Developer & Data Specialist</p>
             <a href="#contact" class="cta-button">Get In Touch</a>
         </div>
     </section>
@@ -533,52 +640,88 @@
         <div class="about-content">
             <div class="about-text">
                 <p>
-                    I'm a passionate full-stack developer with a keen eye for design and a love for creating seamless digital experiences. With expertise in modern web technologies, I transform ideas into elegant solutions.
+                    I'm a <strong>Full-Stack Developer & Data Specialist</strong> passionate about building intelligent automation solutions and extracting valuable insights from data. With expertise in web scraping, machine learning, and backend development, I transform complex problems into elegant, scalable solutions.
                 </p>
-                <p>
-                    My journey in tech has equipped me with deep knowledge in front-end and back-end development, coupled with a strong understanding of user experience principles and best practices.
-                </p>
-                <p>
-                    When I'm not coding, I enjoy exploring emerging technologies, contributing to open-source projects, and mentoring aspiring developers.
+                <h3>Key Strengths</h3>
+                <ul>
+                    <li>Web Scraping & Data Extraction</li>
+                    <li>Machine Learning & AI Integration</li>
+                    <li>Full-Stack Development</li>
+                    <li>Automation & ETL Pipelines</li>
+                    <li>Data Processing & Analytics</li>
+                </ul>
+                <p style="margin-top: 2rem;">
+                    I specialize in creating end-to-end solutions from data collection to visualization, with a focus on automation and intelligent data processing.
                 </p>
             </div>
-            <div class="about-image">👨‍💻</div>
+            <div class="about-image">🤖</div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <h2>Skills & Expertise</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <div class="skill-icon">💻</div>
-                <h3>Frontend Development</h3>
-                <p>HTML, CSS, JavaScript, React, Vue, Responsive Design</p>
+    <!-- What I Do Section -->
+    <section class="what-i-do" id="what-i-do">
+        <h2>What I Do</h2>
+        <div class="what-i-do-grid">
+            <div class="service-card">
+                <div class="service-icon">🕷️</div>
+                <h3>Web Scraping & Automation</h3>
+                <p>Building robust scrapers and automation workflows using Python, Scrapy, and Selenium for data collection at scale</p>
             </div>
-            <div class="skill-card">
-                <div class="skill-icon">⚙️</div>
-                <h3>Backend Development</h3>
-                <p>Node.js, Python, Databases, API Design, REST & GraphQL</p>
+            <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3>Data Engineering & Processing</h3>
+                <p>Designing efficient pipelines to extract, transform, and enrich data for insights and business intelligence</p>
             </div>
-            <div class="skill-card">
-                <div class="skill-icon">🎨</div>
-                <h3>UI/UX Design</h3>
-                <p>Figma, Wireframing, Prototyping, User Research</p>
+            <div class="service-card">
+                <div class="service-icon">🧠</div>
+                <h3>Machine Learning & AI</h3>
+                <p>Implementing ML models (YOLO, Gemini) for intelligent automation, matching, and predictive analytics</p>
             </div>
-            <div class="skill-card">
-                <div class="skill-icon">🚀</div>
-                <h3>DevOps & Deployment</h3>
-                <p>Docker, CI/CD, Cloud Platforms, GitHub Actions</p>
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3>Full-Stack Development</h3>
+                <p>Creating end-to-end solutions from data collection to visualization with modern web technologies</p>
             </div>
-            <div class="skill-card">
-                <div class="skill-icon">📱</div>
-                <h3>Mobile Development</h3>
-                <p>React Native, Flutter, Cross-Platform Solutions</p>
+            <div class="service-card">
+                <div class="service-icon">⚙️</div>
+                <h3>Automation Scripts</h3>
+                <p>Developing intelligent tools for business process optimization and workflow automation</p>
             </div>
-            <div class="skill-card">
-                <div class="skill-icon">🔧</div>
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>Technical Consulting</h3>
+                <p>Advising on architecture, best practices, and optimization for data and automation projects</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-stack" id="tech">
+        <h2>Tech Stack & Expertise</h2>
+        <div class="tech-stack-content">
+            <div class="tech-category">
+                <h3>Languages</h3>
+                <p><strong>Python, SQL</strong><br>Primary languages for all backend, data, and automation work</p>
+            </div>
+            <div class="tech-category">
+                <h3>Frameworks & Tools</h3>
+                <p><strong>Scrapy, Selenium, undetected_chromedriver</strong><br>Production-grade tools for web scraping and automation</p>
+            </div>
+            <div class="tech-category">
+                <h3>AI/ML</h3>
+                <p><strong>YOLO, Google Gemini</strong><br>Deep learning and intelligent automation capabilities</p>
+            </div>
+            <div class="tech-category">
+                <h3>Data Processing</h3>
+                <p><strong>Pandas, CSV, JSON, XLSX</strong><br>Data manipulation and format handling</p>
+            </div>
+            <div class="tech-category">
+                <h3>Databases</h3>
+                <p><strong>MySQL, PostgreSQL, SQLite3</strong><br>Relational database design and management</p>
+            </div>
+            <div class="tech-category">
                 <h3>Tools & Platforms</h3>
-                <p>Git, Linux, Webpack, NPM, AWS, Firebase</p>
+                <p><strong>Git, GitHub, Docker</strong><br>Version control and containerization</p>
             </div>
         </div>
     </section>
@@ -587,40 +730,108 @@
     <section class="projects" id="projects">
         <h2>Featured Projects</h2>
         <div class="projects-grid">
-            <div class="project-card">
+            <div class="project-card fade-in">
+                <div class="project-image">📦</div>
+                <div class="project-info">
+                    <div class="project-number">PROJECT 1</div>
+                    <h3>Scrapers – Production Web Scraping Suite</h3>
+                    <p>A comprehensive collection of 40+ production-ready Python web scrapers for extracting structured business data, professional directories, and real estate information from diverse international sources.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Scrapy</span>
+                        <span class="project-tag">Data Processing</span>
+                    </div>
+                    <a href="https://github.com/A-Hassan001/Scrapers" class="project-link" target="_blank">View Repository →</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image">🤖</div>
+                <div class="project-info">
+                    <div class="project-number">PROJECT 2</div>
+                    <h3>WFS AI-Based Product Matching & Web Scraping Pipeline</h3>
+                    <p>AI-powered pipeline that matches client product data with scraped catalog data using Google Gemini. Automatically enriches CSVs with images, variants, specs, and match confidence.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Gemini AI</span>
+                        <span class="project-tag">Web Scraping</span>
+                    </div>
+                    <a href="https://github.com/A-Hassan001/WFS-Wholesale-AI-Based-Product-Matching-and-Web-Scraping-Pipeline" class="project-link" target="_blank">View Repository →</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image">📚</div>
+                <div class="project-info">
+                    <div class="project-number">PROJECT 3</div>
+                    <h3>Real Book Detector (YOLO)</h3>
+                    <p>Machine learning project that detects whether an image contains a real book, photocopy/PDF, or unknown objects using YOLO deep learning model.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">YOLO</span>
+                        <span class="project-tag">Computer Vision</span>
+                    </div>
+                    <a href="https://github.com/A-Hassan001/Real-Book-Detector-by-Yolo" class="project-link" target="_blank">View Repository →</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
                 <div class="project-image">🌐</div>
                 <div class="project-info">
-                    <h3>E-Commerce Platform</h3>
-                    <p>A full-stack e-commerce solution with payment integration, inventory management, and real-time analytics.</p>
+                    <div class="project-number">PROJECT 4</div>
+                    <h3>Selenium Automation Suite</h3>
+                    <p>Collection of Python Selenium automation projects including Expedia hotel automation, HKJC racing-time scraper, and UK IPO trademarks batch checker with CSV-driven workflows.</p>
                     <div class="project-tags">
-                        <span class="project-tag">React</span>
-                        <span class="project-tag">Node.js</span>
-                        <span class="project-tag">MongoDB</span>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Selenium</span>
+                        <span class="project-tag">Automation</span>
                     </div>
+                    <a href="https://github.com/A-Hassan001/Selenium" class="project-link" target="_blank">View Repository →</a>
                 </div>
             </div>
-            <div class="project-card">
-                <div class="project-image">📊</div>
+
+            <div class="project-card fade-in">
+                <div class="project-image">🏗️</div>
                 <div class="project-info">
+                    <div class="project-number">PROJECT 5</div>
+                    <h3>Procore Scraper</h3>
+                    <p>Scrapy-based Python project that crawls Procore's public network search API to collect contractor records with pagination, custom headers, and timestamped XLSX exports.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Scrapy</span>
+                        <span class="project-tag">API Crawling</span>
+                    </div>
+                    <a href="https://github.com/A-Hassan001/Procore-Scraper" class="project-link" target="_blank">View Repository →</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image">📧</div>
+                <div class="project-info">
+                    <div class="project-number">PROJECT 6</div>
+                    <h3>Elkar Book Scraper</h3>
+                    <p>Python application that automates scraping book information from Elkar website and sends email notifications with collected data. Simple setup for continuous monitoring.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Web Scraping</span>
+                        <span class="project-tag">Email Automation</span>
+                    </div>
+                    <a href="https://github.com/A-Hassan001/Elkar-Book-Scraper-and-Send-Email" class="project-link" target="_blank">View Repository →</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image">📈</div>
+                <div class="project-info">
+                    <div class="project-number">PROJECT 7</div>
                     <h3>Analytics Dashboard</h3>
-                    <p>Real-time data visualization platform with interactive charts and comprehensive reporting capabilities.</p>
+                    <p>Interactive data visualization dashboard for displaying and analyzing aggregated metrics and insights from various data sources.</p>
                     <div class="project-tags">
-                        <span class="project-tag">Vue.js</span>
-                        <span class="project-tag">D3.js</span>
-                        <span class="project-tag">PostgreSQL</span>
+                        <span class="project-tag">HTML</span>
+                        <span class="project-tag">CSS</span>
+                        <span class="project-tag">JavaScript</span>
                     </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">📱</div>
-                <div class="project-info">
-                    <h3>Mobile Task Manager</h3>
-                    <p>Cross-platform mobile app for productive task management with cloud synchronization and offline support.</p>
-                    <div class="project-tags">
-                        <span class="project-tag">React Native</span>
-                        <span class="project-tag">Firebase</span>
-                        <span class="project-tag">Redux</span>
-                    </div>
+                    <a href="https://github.com/A-Hassan001/Analytics-Dashboard" class="project-link" target="_blank">View Repository →</a>
                 </div>
             </div>
         </div>
@@ -628,21 +839,21 @@
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
-        <h2>Let's Connect</h2>
+        <h2>Let's Connect & Build Something Amazing</h2>
         <div class="contact-content">
-            <p>I'm always interested in hearing about new projects and opportunities.</p>
+            <p>I'm always interested in hearing about new opportunities and collaborations in data engineering, web scraping, and AI/ML projects.</p>
             <div class="contact-links">
-                <a href="mailto:your.email@example.com" class="contact-link">📧 Email</a>
-                <a href="https://linkedin.com" class="contact-link" target="_blank">💼 LinkedIn</a>
-                <a href="https://github.com" class="contact-link" target="_blank">🐙 GitHub</a>
-                <a href="https://twitter.com" class="contact-link" target="_blank">𝕏 Twitter</a>
+                <a href="mailto:contact.abhassan@gmail.com" class="contact-link">📧 Email</a>
+                <a href="https://www.linkedin.com/in/ali-hassan-847933285/" class="contact-link" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/A-Hassan001" class="contact-link" target="_blank">🐙 GitHub</a>
+                <a href="tel:+923137058036" class="contact-link">📱 Call/WhatsApp</a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Ali Hassan. All rights reserved. | Built with ❤️</p>
+        <p>&copy; 2024 Ali Hassan. All rights reserved. | Full-Stack Developer & Data Specialist | Built with ❤️</p>
     </footer>
 
     <script>
@@ -700,7 +911,7 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.skill-card, .project-card').forEach(el => {
+        document.querySelectorAll('.service-card, .project-card').forEach(el => {
             observer.observe(el);
         });
     </script>
