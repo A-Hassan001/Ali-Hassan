@@ -10,7 +10,7 @@ My work focuses on transforming complex data into **structured, reliable, and ac
 
 ## 🚀 What I Do
 
-- 🐍 **Python Backend Development** — Building scalable applications and APIs with Django, FastAPI, and Flask
+- 🐍 **Python Backend Development** — Building scalable applications and APIs with Django.
 - 🕷️ **Web Scraping & Automation** — Developing reliable scraping systems using Scrapy, Requests, Selenium, and Playwright
 - 🔄 **Data Engineering & ETL** — Extracting, transforming, cleaning, and enriching large datasets
 - 🤖 **AI & Machine Learning** — Building intelligent automation solutions using YOLO, Google Gemini, and Scikit-learn
@@ -24,8 +24,7 @@ My work focuses on transforming complex data into **structured, reliable, and ac
 ### Backend & Programming
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+
 
 ### Web Scraping & Automation
 ![Scrapy](https://img.shields.io/badge/Scrapy-60A839?style=flat&logo=scrapy&logoColor=white)
@@ -37,7 +36,6 @@ My work focuses on transforming complex data into **structured, reliable, and ac
 - YOLO
 - Google Gemini
 - Scikit-learn
-- Computer Vision
 - AI-powered data matching
 
 ### Databases & Data
@@ -50,9 +48,9 @@ My work focuses on transforming complex data into **structured, reliable, and ac
 - XLSX
 
 ### Tools
+- Pycharm
+- Jupyter Notebook
 - Git & GitHub
-- Docker
-- REST APIs
 - Google Workspace Automation
 
 ---
@@ -73,7 +71,7 @@ A collection of **40+ production-ready Python web scrapers** for collecting stru
 
 ---
 
-### 🤖 [WFS AI Product Matching & Web Scraping Pipeline](https://github.com/A-Hassan001/WFS-Wholesale-AI-Based-Product-Matching-and-Web-Scraping-Pipeline)
+### [WFS AI Product Matching & Web Scraping Pipeline](https://github.com/A-Hassan001/WFS-Wholesale-AI-Based-Product-Matching-and-Web-Scraping-Pipeline)
 
 An AI-powered data pipeline that matches client product data with scraped catalog data using **Google Gemini**.
 
@@ -88,7 +86,7 @@ An AI-powered data pipeline that matches client product data with scraped catalo
 
 ---
 
-### 📚 [Real Book Detector](https://github.com/A-Hassan001/Real-Book-Detector-by-Yolo)
+### [Real Book Detector](https://github.com/A-Hassan001/Real-Book-Detector-by-Yolo)
 
 A computer vision project that detects whether an image contains a **real book, photocopy/PDF, or unknown object** using a YOLO deep learning model.
 
@@ -96,7 +94,7 @@ A computer vision project that detects whether an image contains a **real book, 
 
 ---
 
-### ⚙️ [Selenium Automation Suite](https://github.com/A-Hassan001/Selenium)
+### [Selenium Automation Suite](https://github.com/A-Hassan001/Selenium)
 
 A collection of Selenium automation projects, including:
 
@@ -109,7 +107,7 @@ A collection of Selenium automation projects, including:
 
 ---
 
-### 🏗️ [Procore Scraper](https://github.com/A-Hassan001/Procore-Scraper)
+### [Procore Scraper](https://github.com/A-Hassan001/Procore-Scraper)
 
 A Scrapy-based scraper that collects contractor records from a public network search API with pagination and structured XLSX export functionality.
 
@@ -117,7 +115,7 @@ A Scrapy-based scraper that collects contractor records from a public network se
 
 ---
 
-### 📖 [Elkar Book Scraper](https://github.com/A-Hassan001/Elkar-Book-Scraper-and-Send-Email)
+### [Elkar Book Scraper](https://github.com/A-Hassan001/Elkar-Book-Scraper-and-Send-Email)
 
 A Python automation tool that collects book information and sends email notifications with the extracted data.
 
@@ -125,7 +123,7 @@ A Python automation tool that collects book information and sends email notifica
 
 ---
 
-### 📊 [Analytics Dashboard](https://github.com/A-Hassan001/Analytics-Dashboard)
+### [Analytics Dashboard](https://github.com/A-Hassan001/Analytics-Dashboard)
 
 An interactive dashboard for visualizing and analyzing aggregated data and metrics.
 
@@ -133,7 +131,7 @@ An interactive dashboard for visualizing and analyzing aggregated data and metri
 
 ---
 
-## 📈 GitHub Activity
+## GitHub Activity
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=A-Hassan001&show_icons=true&theme=default" alt="Ali Hassan's GitHub Stats" />
