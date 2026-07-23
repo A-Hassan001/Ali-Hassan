@@ -25,6 +25,7 @@ My work focuses on transforming complex data into **structured, reliable, and ac
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
 
+---
 
 ### Web Scraping & Automation
 ![Scrapy](https://img.shields.io/badge/Scrapy-60A839?style=flat&logo=scrapy&logoColor=white)
@@ -32,26 +33,34 @@ My work focuses on transforming complex data into **structured, reliable, and ac
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
 ![Requests](https://img.shields.io/badge/Requests-3776AB?style=flat&logo=python&logoColor=white)
 
+---
+
 ### AI & Machine Learning
-- YOLO
-- Google Gemini
-- Scikit-learn
-- AI-powered data matching
+![YOLO](https://img.shields.io/badge/YOLO-FF6F00?style=flat)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=flat&logo=google&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![AI Data Matching](https://img.shields.io/badge/AI-Data--Matching-9C27B0?style=flat)
+
+---
 
 ### Databases & Data
-- PostgreSQL
-- MySQL
-- SQLite
-- Pandas
-- CSV
-- JSON
-- XLSX
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![CSV](https://img.shields.io/badge/CSV-4CAF50?style=flat)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white)
+![XLSX](https://img.shields.io/badge/XLSX-217346?style=flat&logo=microsoft-excel&logoColor=white)
+
+---
 
 ### Tools
-- Pycharm
-- Jupyter Notebook
-- Git & GitHub
-- Google Workspace Automation
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-DA5B0B?style=flat&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![Google Workspace](https://img.shields.io/badge/Google-Workspace-4285F4?style=flat&logo=google&logoColor=white)
+![Automation](https://img.shields.io/badge/Workspace-Automation-34A853?style=flat)
 
 ---
 
