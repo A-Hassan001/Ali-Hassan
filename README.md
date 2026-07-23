@@ -131,14 +131,20 @@ An interactive dashboard for visualizing and analyzing aggregated data and metri
 
 ---
 
-## GitHub Activity
+## 📈 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=A-Hassan001&show_icons=true&theme=default" alt="Ali Hassan's GitHub Stats" />
+  <img
+    src="https://github-readme-stats-sigma-five.vercel.app/api?username=A-Hassan001&show_icons=true"
+    alt="Ali Hassan's GitHub Stats"
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=A-Hassan001" alt="GitHub Streak" />
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=A-Hassan001"
+    alt="Ali Hassan's GitHub Streak"
+  />
 </p>
 
 ---
