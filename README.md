@@ -6,11 +6,11 @@ I'm a **Full-Stack Developer & Data Specialist** passionate about building intel
 
 ## What I Do
 
-- 🤖 **Web Scraping & Automation** – Building robust scrapers and automation workflows using Python, Scrapy, and Selenium
-- 📊 **Data Engineering & Processing** – Designing efficient pipelines to extract, transform, and enrich data
-- 🧠 **Machine Learning & AI** – Implementing ML models (YOLO, Gemini) for intelligent automation and matching
-- 💻 **Full-Stack Development** – Creating end-to-end solutions from data collection to visualization
-- 🔧 **Automation Scripts** – Developing intelligent tools for business process optimization
+- **Web Scraping & Automation** – Building robust scrapers and automation workflows using Python, Scrapy, and Selenium
+- **Data Engineering & Processing** – Designing efficient pipelines to extract, transform, and enrich data
+- **Machine Learning & AI** – Implementing ML models (YOLO, Gemini) for intelligent automation and matching
+- **Full-Stack Development** – Creating end-to-end solutions from data collection to visualization
+- **Automation Scripts** – Developing intelligent tools for business process optimization
 
 ## Expertise
 
