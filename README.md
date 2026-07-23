@@ -8,14 +8,14 @@ My work focuses on transforming complex data into **structured, reliable, and ac
 
 ---
 
-## 🚀 What I Do
+## What I Do
 
-- 🐍 **Python Backend Development** — Building scalable applications and APIs with Django.
-- 🕷️ **Web Scraping & Automation** — Developing reliable scraping systems using Scrapy, Requests, Selenium, and Playwright
-- 🔄 **Data Engineering & ETL** — Extracting, transforming, cleaning, and enriching large datasets
-- 🤖 **AI & Machine Learning** — Building intelligent automation solutions using YOLO, Google Gemini, and Scikit-learn
-- 🗄️ **Database Development** — Working with PostgreSQL, MySQL, and SQLite
-- 📊 **Data Processing & Visualization** — Creating structured datasets and analytical dashboards
+- **Python Backend Development** — Building scalable applications and APIs with Django.
+- **Web Scraping & Automation** — Developing reliable scraping systems using Scrapy, Requests, Selenium, and Playwright
+- **Data Engineering & ETL** — Extracting, transforming, cleaning, and enriching large datasets
+- **AI & Machine Learning** — Building intelligent automation solutions using YOLO, Google Gemini, and Scikit-learn
+- **Database Development** — Working with PostgreSQL, MySQL, and SQLite
+- **Data Processing & Visualization** — Creating structured datasets and analytical dashboards
 
 ---
 
@@ -66,7 +66,7 @@ My work focuses on transforming complex data into **structured, reliable, and ac
 
 ## 📁 Featured Projects
 
-### 🕷️ [Scrapers](https://github.com/A-Hassan001/Scrapers)
+### [Scrapers](https://github.com/A-Hassan001/Scrapers)
 
 A collection of **40+ production-ready Python web scrapers** for collecting structured data from business directories, professional platforms, real estate sources, and other international websites.
 
@@ -140,7 +140,7 @@ An interactive dashboard for visualizing and analyzing aggregated data and metri
 
 ---
 
-## 📈 GitHub Activity
+## GitHub Activity
 
 <p align="center">
   <img
